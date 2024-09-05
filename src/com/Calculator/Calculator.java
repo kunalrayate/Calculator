@@ -164,8 +164,8 @@ public class Calculator {
 		Scanner Sc = new Scanner(System.in);
 		Calculator c1 = new Calculator();
 		while (true) {
-			System.out.println(
-					"Welcome To Calculator \n1.Add\n2.Sub\n3.Mul\n4.Div\n5.Modulo\n6.Prime\n7.Natural\n8.Palindrome\n9.Armstrong\n10.Exit");
+			System.out.println("Enter your choice :");
+			System.out.println("Welcome To Calculator \n1.Add\n2.Sub\n3.Mul\n4.Div\n5.Modulo\n6.Prime\n7.Natural\n8.Palindrome\n9.Armstrong\n10.Exit");
 			int num = Sc.nextInt();
 
 			switch (num) {
