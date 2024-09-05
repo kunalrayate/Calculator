@@ -7,9 +7,9 @@ public class Calculator {
 	void add() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter First Digit");
+			System.out.print("Enter First Digit : ");
 			int num1 = Sc.nextInt();
-			System.out.println("Enter Second Digit");
+			System.out.print("Enter Second Digit : ");
 			int num2 = Sc.nextInt();
 			int sum = num1 + num2;
 			System.out.println("Addition is : " + sum);
@@ -21,9 +21,9 @@ public class Calculator {
 	void sub() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter First Digit");
+			System.out.print("Enter First Digit : ");
 			int num1 = Sc.nextInt();
-			System.out.println("Enter Second Digit");
+			System.out.print("Enter Second Digit : ");
 			int num2 = Sc.nextInt();
 			int sum = num1 - num2;
 			System.out.println("Substraction is : " + sum);
@@ -35,9 +35,9 @@ public class Calculator {
 	void mul() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter First Digit");
+			System.out.print("Enter First Digit : ");
 			int num1 = Sc.nextInt();
-			System.out.println("Enter Second Digit");
+			System.out.print("Enter Second Digit : ");
 			int num2 = Sc.nextInt();
 			int sum = num1 * num2;
 			System.out.println("Multipication is : " + sum);
@@ -49,9 +49,9 @@ public class Calculator {
 	void div() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter First Digit");
+			System.out.print("Enter First Digit : ");
 			int num1 = Sc.nextInt();
-			System.out.println("Enter Second Digit");
+			System.out.print("Enter Second Digit : ");
 			int num2 = Sc.nextInt();
 			try {
 				int sum = num1 / num2;
@@ -67,9 +67,9 @@ public class Calculator {
 	void modulo() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter First Digit");
+			System.out.print("Enter First Digit : ");
 			int num1 = Sc.nextInt();
-			System.out.println("Enter Second Digit");
+			System.out.print("Enter Second Digit : ");
 			int num2 = Sc.nextInt();
 			int sum = num1 % num2;
 			System.out.println("Modulo is : " + sum);
@@ -81,7 +81,7 @@ public class Calculator {
 	void prime() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter Digit");
+			System.out.print("Enter Digit : ");
 			int num = Sc.nextInt();
 			if (num % 2 == 0) {
 				System.out.println("Given Number is Prime Number");
@@ -96,7 +96,7 @@ public class Calculator {
 	void natural() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter Digit");
+			System.out.print("Enter Digit : ");
 			int num = Sc.nextInt();
 			int i = 1;
 			int sum = 0;
@@ -113,7 +113,7 @@ public class Calculator {
 	void palidrome() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter Digit");
+			System.out.print("Enter Digit : ");
 			int num = Sc.nextInt();
 			int rev = 0;
 			int temp = num;
@@ -135,7 +135,7 @@ public class Calculator {
 	void arms() {
 		Scanner Sc = new Scanner(System.in);
 		try {
-			System.out.println("Enter Digit");
+			System.out.print("Enter Digit : ");
 			int num = Sc.nextInt();
 			int temp = num;
 			int sum = 0;
@@ -164,8 +164,9 @@ public class Calculator {
 		Scanner Sc = new Scanner(System.in);
 		Calculator c1 = new Calculator();
 		while (true) {
-			System.out.println("Enter your choice :");
-			System.out.println("Welcome To Calculator \n1.Add\n2.Sub\n3.Mul\n4.Div\n5.Modulo\n6.Prime\n7.Natural\n8.Palindrome\n9.Armstrong\n10.Exit");
+			System.out.println("WELCOME TO CALCULATOR ->");
+			System.out.println("-----------------------\n1. Add\n2. Sub\n3. Mul\n4. Div\n5. Modulo\n6. Prime\n7. Natural\n8. Palindrome\n9. Armstrong\n10. Exit");
+			System.out.print("---------------------\nEnter your choice : ");
 			int num = Sc.nextInt();
 
 			switch (num) {
@@ -206,7 +207,7 @@ public class Calculator {
 				break;
 
 			case 10:
-				System.out.println("Exiting.....");
+				System.out.println("\nThank you for using Calculator.");
 				System.exit(0);
 				break;
 
