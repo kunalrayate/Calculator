@@ -110,7 +110,7 @@ public class Calculator {
 		}
 	}
 
-	void palidrome() {
+	void palindrome() {
 		Scanner Sc = new Scanner(System.in);
 		try {
 			System.out.print("Enter Digit : ");
@@ -199,7 +199,7 @@ public class Calculator {
 				break;
 
 			case 8:
-				c1.palidrome();
+				c1.palindrome();
 				break;
 
 			case 9:
